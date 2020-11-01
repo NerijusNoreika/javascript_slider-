@@ -5,7 +5,6 @@ class Slider {
         id === null ? this.id = 'javascript-slider' : this.id = id;
         controls === null ? this.controls = false : this.controls = controls;
         this.run();
-
     }
 
     run() {
